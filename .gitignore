@@ -1,0 +1,15 @@
+**/*.js-e
+**/*.ts-e
+**/*.md-e
+/src/**/*.js
+/src/**/*.d.ts
+.idea
+docs
+dist
+node_modules
+remote-pay-cloud.iml
+npm-debug.log
+built
+bundle
+.gradle
+local.properties
