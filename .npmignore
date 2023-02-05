@@ -1,0 +1,7 @@
+**/*.js-e
+**/*.ts-e
+**/*.md-e
+.idea
+scripts
+remote-pay-cloud.iml
+npm-debug.log
