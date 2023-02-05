@@ -1,0 +1,55 @@
+{
+  "name": "remote-pay-cloud",
+  "version": "4.0.4",
+  "description": "Access Clover devices through the cloud.",
+  "keywords": [
+    "clover",
+    "remotepay",
+    "POS",
+    "websocket",
+    "payment"
+  ],
+  "bugs": {
+    "url": "https://github.com/clover/remote-pay-cloud/issues"
+  },
+  "license": "ISC",
+  "author": {
+    "name": "clover-sdk",
+    "email": "sdk@clover.com",
+    "url": "http://www.clover.com"
+  },
+  "main": "index.js",
+  "types": "./types/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/clover/remote-pay-cloud"
+  },
+  "scripts": {
+    "build": "gulp",
+    "updateVersion": "scripts/postversion.sh \"$npm_package_version\"",
+    "dev-publish": "npm version prerelease --no-git-tag-version && npm publish --tag dev",
+    "test": "mocha test/unit-tests --exit"
+  },
+  "dependencies": {
+    "eventemitter3": "4.0.7",
+    "remote-pay-cloud-api": "4.0.3"
+  },
+  "devDependencies": {
+    "@types/node": "12.6.8",
+    "chai": "4.2.0",
+    "del": "2.2.2",
+    "gulp": "4.0.2",
+    "gulp-sourcemaps": "2.6.5",
+    "gulp-typedoc": "2.2.5",
+    "gulp-typescript": "3.2.4",
+    "jsdoc": "3.4.3",
+    "merge2": "1.4.1",
+    "mocha": "4.0.1",
+    "path": "0.12.7",
+    "ts-loader": "3.0.5",
+    "typedoc": "0.19.2",
+    "typescript": "3.9.7",
+    "webpack": "3.12.0",
+    "webpack-stream": "4.0.0"
+  }
+}

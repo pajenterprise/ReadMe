@@ -1,0 +1,7 @@
+.idea
+node_modules
+test
+remote-pay-cloud.iml
+npm-debug.log
+.gradle
+gradle
